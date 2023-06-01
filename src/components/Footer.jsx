@@ -7,7 +7,7 @@ const Footer = () => {
       id="footer"
       className="border-t container mx-auto py-12 flex justify-between items-start"
     >
-      <div className="relative flex flex-col-reverse md:flex-row justify-center items-center w-full h-full">
+      <div className="relative flex flex-col-reverse md:flex-row justify-center w-full h-full">
         <div className="md:absolute md:left-0 mt-8 md:mt-0 text-center md:text-left">
           <h1 className="font-black md:text-2xl">Malik's Tints</h1>
           <p className="text-xs md:text-base">
