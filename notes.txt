@@ -1,0 +1,23 @@
+- single page with navbar that scrolls down to different
+- tint simulator using window image overlay that changes opacity of overlay as tint level changes
+- contact details to book an appointment
+- recent works section
+- grid for pricing
+- why you should get a tint section
+- emphasis on mobile compatibility (build mobile friendly first)
+- potential 3d porsche 911 for simulator
+
+section 1: Hero section w/ navigation bar
+section 2: Why you should get a tint?
+section 3: simulator
+section 4: pricing
+section 5: recent works
+section 6: contact info for booking
+section 7: footer
+
+
+boot010_0
+boot
+boot009_0
+boot 004_0 is the windows i believe can use for changing opacity if needed
+bumper_front003 is the headlights
