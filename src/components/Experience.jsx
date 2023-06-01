@@ -108,6 +108,7 @@ const Experience = ({
           autoRotate
           autoRotateSpeed={0.25}
           enablePan={false}
+          enableRotate={false}
         />
         <directionalLight position={[4, 2, 6]} />
         <ambientLight />
