@@ -2,7 +2,7 @@ import React, { useState } from "react";
 
 const Navbar = ({ menu, setMenu }) => {
   return (
-    <div className="fixed top-0 w-screen border-b z-[1000] bg-white">
+    <div className="fixed top-0 w-screen border-b z-[1000] bg-neutral-50/70 backdrop-blur-2xl">
       <div className="container mx-auto p-4 flex justify-between items-center">
         <h1 className="text-lg md:text-4xl font-bold">Malik's Tints</h1>
         <ul className="hidden md:flex gap-4">

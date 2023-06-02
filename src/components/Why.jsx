@@ -37,7 +37,7 @@ const Why = () => {
             Car Interior Quality
           </h3>
           <p className="max-w-sm md:text-base text-xs text-center mb-4">
-            Since less UV rays will enter your car, the interior will last
+            With 99% UV rejection, the interior will last
             longer and won't deteriorate as much due to excessive sun rays and
             heat damage.
           </p>

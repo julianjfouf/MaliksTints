@@ -21,7 +21,6 @@ body {
 
 .blueFade {
   animation: blueFade 1000 ease-in-out;
-
 }
 
 @keyframes blueFade {
@@ -48,5 +47,51 @@ body {
   }
   100% {
     transform: translate(-50%, 1px);
+  }
+}
+
+.floating-right {
+  animation-name: floating-right;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+  animation-direction: alternate;
+}
+
+.floating-left {
+  animation-name: floating-left;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+  animation-direction: alternate;
+}
+
+@keyframes floating-right {
+  0% {
+    transform: translate(0, 0px);
+  }
+  33% {
+    transform: translate(200px, -200px);
+  }
+  66% {
+    transform: translate(150px, 150px);
+  }
+  100% {
+    transform: translate(0, 0px);
+  }
+}
+
+@keyframes floating-left {
+  0% {
+    transform: translate(0, 0px);
+  }
+  33% {
+    transform: translate(300px, 200px);
+  }
+  66% {
+    transform: translate(200px, -200px);
+  }
+  100% {
+    transform: translate(0, 0px);
   }
 }

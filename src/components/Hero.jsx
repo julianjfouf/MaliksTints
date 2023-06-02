@@ -5,7 +5,7 @@ const Hero = ({ menu, setMenu }) => {
   return (
     <div
       id="home"
-      className="h-screen w-screen flex justify-center items-center relative"
+      className="h-screen w-screen overflow-hidden flex justify-center items-center relative"
     >
       <Navbar menu={menu} setMenu={setMenu} />
       <h1 className="text-4xl md:text-9xl text-center">
@@ -18,6 +18,8 @@ const Hero = ({ menu, setMenu }) => {
       >
         <div className="w-1 h-2.5 bg-blue-800 rounded-full absolute top-1 left-[50%] translate-x-[-50%] scroll"></div>
       </a>
+      <div className="floating-left lg:h-[40vw] lg:w-[40vw] h-[100vh] w-[100vh] rounded-full bg-blue-800 opacity-30 blur-[150px] absolute top-0 left-0" />
+      <div className="floating-right lg:h-[40vw] lg:w-[40vw] h-[100vh] w-[100vh] rounded-full bg-neutral-800 opacity-30 blur-[125px] absolute right-0 bottom-0" />
     </div>
   );
 };
