@@ -14,7 +14,7 @@ const Interface = ({ setTint }) => {
               setTint(0.025);
               setSelected(0);
             }}
-            className={`bg-neutral-300 px-4 py-2 md:px-8 md:py-4 rounded text-lg md:text-4xl z-10 font-semibold duration-300 transition-all ease-in-out ${
+            className={`bg-neutral-300 px-4 py-2 md:px-8 md:py-4 rounded text-lg md:text-2xl z-10 font-semibold duration-300 transition-all ease-in-out ${
               selected == 0 ? `!bg-blue-800 text-neutral-50 shadow-inner` : null
             }`}
           >
@@ -25,7 +25,7 @@ const Interface = ({ setTint }) => {
               setTint(0.1);
               setSelected(1);
             }}
-            className={`bg-neutral-300 px-4 py-2 md:px-8 md:py-4 rounded text-lg md:text-4xl z-10 font-semibold duration-300 transition-all ease-in-out ${
+            className={`bg-neutral-300 px-4 py-2 md:px-8 md:py-4 rounded text-lg md:text-2xl z-10 font-semibold duration-300 transition-all ease-in-out ${
               selected == 1 ? `!bg-blue-800 text-neutral-50 shadow-inner` : null
             }`}
           >
@@ -36,7 +36,7 @@ const Interface = ({ setTint }) => {
               setTint(0.2);
               setSelected(2);
             }}
-            className={`bg-neutral-300 px-4 py-2 md:px-8 md:py-4 rounded text-lg md:text-4xl z-10 font-semibold duration-300 transition-all ease-in-out ${
+            className={`bg-neutral-300 px-4 py-2 md:px-8 md:py-4 rounded text-lg md:text-2xl z-10 font-semibold duration-300 transition-all ease-in-out ${
               selected == 2 ? `!bg-blue-800 text-neutral-50 shadow-inner` : null
             }`}
           >
