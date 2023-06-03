@@ -12,7 +12,8 @@ const Why = () => {
         Benefits of Tint
       </h1>
       <div className="flex md:flex-nowrap flex-wrap">
-        <div className="min-w-[240px] flex flex-col justify-center items-center border p-4 m-1 rounded">
+        <div className="relative overflow-hidden min-w-[240px] flex flex-col justify-center items-center shadow px-4 py-8 m-1 rounded">
+          <div className="absolute w-full top-0 h-1 bg-blue-800"></div>
           <h3 className="md:text-2xl text-blue-800 mb-2 text-center font-bold">
             Privacy
           </h3>
@@ -22,7 +23,8 @@ const Why = () => {
           </p>
           <Image src={shield} />
         </div>
-        <div className="min-w-[240px] flex flex-col justify-center items-center border p-4 m-1 rounded">
+        <div className="relative overflow-hidden min-w-[240px] flex flex-col justify-center items-center shadow px-4 py-8 m-1 rounded">
+          <div className="absolute w-full top-0 h-1 bg-blue-800"></div>
           <h3 className="md:text-2xl text-blue-800 mb-2 text-center font-bold">
             Sun + Heat Resistant
           </h3>
@@ -32,14 +34,14 @@ const Why = () => {
           </p>
           <Image src={sun} />
         </div>
-        <div className="min-w-[240px] flex flex-col justify-center items-center border p-4 m-1 rounded">
+        <div className="relative overflow-hidden min-w-[240px] flex flex-col justify-center items-center shadow px-4 py-8 m-1 rounded">
+          <div className="absolute w-full top-0 h-1 bg-blue-800"></div>
           <h3 className="md:text-2xl text-blue-800 mb-2 text-center font-bold">
             Car Interior Quality
           </h3>
           <p className="max-w-sm md:text-base text-xs text-center mb-4">
-            With 99% UV rejection, the interior will last
-            longer and won't deteriorate as much due to excessive sun rays and
-            heat damage.
+            With 99% UV rejection, the interior will last longer and won't
+            deteriorate as much due to excessive sun rays and heat damage.
           </p>
           <Image src={clock} className="aspect-auto object-contain" />
         </div>

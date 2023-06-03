@@ -17,21 +17,24 @@ const Pricing = () => {
         Our Offers
       </h1>
       <div className="flex flex-wrap md:flex-nowrap">
-        <div className="min-w-[240px] flex flex-col justify-center items-center border p-4 rounded m-1">
+        <div className="min-w-[240px] relative flex flex-col justify-center overflow-hidden items-center border px-4 py-8 rounded m-1">
+          <div className="absolute w-full top-0 h-1 bg-blue-800"></div>
           <h3 className="font-semibold md:text-4xl text-center text-blue-800">
             Two Front
           </h3>
           <Image className="my-4" src={first} />
           <p className="font-semibold md:text-4xl">$100</p>
         </div>
-        <div className="min-w-[240px] flex flex-col justify-center items-center border p-4 rounded m-1">
+        <div className="min-w-[240px] relative flex flex-col justify-center overflow-hidden items-center border px-4 py-8 rounded m-1">
+          <div className="absolute w-full top-0 h-1 bg-blue-800"></div>
           <h3 className="font-semibold md:text-4xl text-center text-blue-800">
             All Four
           </h3>
           <Image className="my-4" src={second} />
           <p className="font-semibold md:text-4xl">$200</p>
         </div>
-        <div className="min-w-[240px] flex flex-col justify-center items-center border p-4 rounded m-1">
+        <div className="min-w-[240px] relative flex flex-col justify-center overflow-hidden items-center border px-4 py-8 rounded m-1">
+          <div className="absolute w-full top-0 h-1 bg-blue-800"></div>
           <h3 className="font-semibold md:text-4xl text-center text-blue-800">
             Two Back
           </h3>
