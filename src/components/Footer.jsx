@@ -101,7 +101,7 @@ const Footer = () => {
               href="sms:+15106438393"
               className="flex items-center gap-1 text-sm md:text-base justify-center md:justify-end hover:text-blue-800 transition-all duration-300 ease-in-out"
             >
-              (510)643-8393
+              (510) 643-8393
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="25"
