@@ -24,7 +24,7 @@ const Footer = () => {
             </span>
           </p>
         </div>
-        <div className="text-center">
+        <div className="text-center md:flex md:flex-col hidden">
           <h3 className="font-semibold md:text-xl text-blue-800">Navigation</h3>
           <div className="flex flex-col gap-2 mt-4">
             <a

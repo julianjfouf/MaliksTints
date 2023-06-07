@@ -3,7 +3,7 @@ import React from "react";
 const Contact = () => {
   return (
     <div id="booking" className="flex flex-col container mx-auto">
-      <div className="flex flex-col py-24 text-center">
+      <div className="flex flex-col pt-12 md:pt-24 text-center">
         <p className="text-blue-800 text-xs md:text-xl tracking-widest">
           Contact
         </p>
@@ -116,7 +116,7 @@ const Contact = () => {
           </div>
         </div>
       </div>
-      <div className="flex flex-col items-center py-24 px-4">
+      <div className="flex flex-col items-center py-12 md:py-24 px-4">
         <p className="text-blue-800 text-xs md:text-xl tracking-widest">
           About
         </p>
