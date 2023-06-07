@@ -35,7 +35,7 @@ const Navbar = ({ menu, setMenu }) => {
               href="#booking"
               className="hover:text-blue-800 transition-all duration-300 ease-in-out"
             >
-              Booking
+              About
             </a>
           </li>
           <li>

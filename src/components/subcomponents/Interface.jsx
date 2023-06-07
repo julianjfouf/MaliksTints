@@ -4,7 +4,7 @@ const Interface = ({ setTint }) => {
   const [selected, setSelected] = useState(2);
 
   return (
-    <div className="absolute w-full top-0 cursor-auto">
+    <div className="absolute w-full h-full top-0 cursor-auto z-10">
       <div className="absolute top-10 left-[50%] translate-x-[-50%] z-10 flex flex-col items-center justify-center">
         <p className="text-blue-800 text-xs md:text-xl tracking-widest">
           Simulator
@@ -48,25 +48,27 @@ const Interface = ({ setTint }) => {
           </button>
         </div>
         <div className="relative mt-4 md:text-base text-xs text-center">
-          <p className={`opacity-0 font-semibold transition-all duration-300`}>
+          <p
+            className={`opacity-0 font-semibold p-2 rounded transition-all duration-300`}
+          >
             <span className="font-black">43%</span> Total Solar Energy Rejection
           </p>
           <p
-            className={`absolute font-semibold top-0 translate-y-[-100%] opacity-0 transition-all duration-300 ${
+            className={`absolute bg-white/70 rounded p-2 font-semibold top-0 translate-y-[-100%] opacity-0 transition-all duration-300 ${
               selected == 0 ? `!translate-y-[0] opacity-100` : null
             }`}
           >
             <span className="font-black">43%</span> Total Solar Energy Rejection
           </p>
           <p
-            className={`absolute font-semibold w-full top-0 translate-y-[-100%] opacity-0 transition-all duration-300 ${
+            className={`absolute bg-white/70 rounded p-2 font-semibold w-full top-0 translate-y-[-100%] opacity-0 transition-all duration-300 ${
               selected == 1 ? `!translate-y-[0] opacity-100` : null
             }`}
           >
             <span className="font-black">39%</span> Total Solar Energy Rejection
           </p>
           <p
-            className={`absolute font-semibold top-0 translate-y-[-100%] opacity-0 transition-all duration-300 ${
+            className={`absolute bg-white/70 rounded p-2 font-semibold top-0 translate-y-[-100%] opacity-0 transition-all duration-300 ${
               selected == 2 ? `!translate-y-[0] opacity-100` : null
             }`}
           >

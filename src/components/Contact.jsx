@@ -1,76 +1,24 @@
-import Image from "next/image";
 import React from "react";
 
-const Footer = () => {
+const Contact = () => {
   return (
-    <div
-      id="footer"
-      className="border-t container mx-auto py-12 px-4 flex justify-between items-start"
-    >
-      <div className="relative flex flex-col-reverse md:flex-row justify-center w-full h-full">
-        <div className="md:absolute md:left-0 mt-8 md:mt-0 text-center md:text-left">
-          <h1 className="font-black md:text-2xl">Malik's Tints</h1>
-          <p className="text-xs md:text-base">
-            &copy; 2023 Malik's Tints <br />
-            <span className="text-xs md:text-sm">
-              Powered by{" "}
-              <a
-                className="text-purple-500 underline hover:text-purple-700 duration-300 transition-all ease-in-out"
-                href="https://julianjfoufportfolio.vercel.app/"
-                target="_blank"
-              >
-                Julian Jfouf
-              </a>
-            </span>
-          </p>
-        </div>
-        <div className="text-center">
-          <h3 className="font-semibold md:text-xl text-blue-800">Navigation</h3>
-          <div className="flex flex-col gap-2 mt-4">
-            <a
-              href="#home"
-              className="hover:text-blue-800 text-sm md:text-base transition-all duration-300 ease-in-out"
-            >
-              Home
-            </a>
-            <a
-              href="#why"
-              className="hover:text-blue-800 text-sm md:text-base transition-all duration-300 ease-in-out"
-            >
-              Why?
-            </a>
-            <a
-              href="#simulator"
-              className="hover:text-blue-800 text-sm md:text-base transition-all duration-300 ease-in-out"
-            >
-              Simulator
-            </a>
-            <a
-              href="#pricing"
-              className="hover:text-blue-800 text-sm md:text-base transition-all duration-300 ease-in-out"
-            >
-              Pricing
-            </a>
-            <a
-              href="#booking"
-              className="hover:text-blue-800 text-sm md:text-base transition-all duration-300 ease-in-out"
-            >
-              About
-            </a>
-          </div>
-        </div>
-        <div className="md:absolute right-0 text-center md:text-right mb-8 md:mb-0">
-          <h3 className="font-semibold md:text-xl text-blue-800">Contact</h3>
-          <div className="flex flex-col gap-2 mt-4">
+    <div id="booking" className="flex flex-col container mx-auto">
+      <div className="flex flex-col py-24 text-center">
+        <p className="text-blue-800 text-xs md:text-xl tracking-widest">
+          Contact
+        </p>
+        <h1 className="text-xl md:text-6xl font-bold mb-8">Book Now!</h1>
+        <div className="flex flex-col items-center">
+          <div className="flex flex-col gap-4 border px-16 md:px-32 py-8 md:py-16 relative overflow-hidden md:text-2xl">
+            <div className="absolute w-full top-0 left-0 h-1 bg-blue-800"></div>
             <a
               href="mailto:maliktints@gmail.com"
-              className="flex items-center gap-1 justify-center md:justify-end text-sm md:text-base hover:text-blue-800 transition-all duration-300 ease-in-out"
+              className="flex gap-2 font-bold items-center hover:text-blue-800 transition-all duration-300 ease-in-out"
             >
-              maliktints@gmail.com
               <svg
                 xmlns="http://www.w3.org/2000/svg"
-                width="25"
-                height="25"
+                width="50"
+                height="50"
                 viewBox="1 1 600 600"
               >
                 <g transform="matrix(6.66667 0 0 6.66667 -5.667 -6408.081)">
@@ -96,16 +44,16 @@ const Footer = () => {
                   />
                 </g>
               </svg>
+              maliktints@gmail.com
             </a>
             <a
               href="sms:+15106438393"
-              className="flex items-center gap-1 text-sm md:text-base justify-center md:justify-end hover:text-blue-800 transition-all duration-300 ease-in-out"
+              className="flex gap-2 font-bold items-center hover:text-blue-800 transition-all duration-300 ease-in-out"
             >
-              (510) 643-8393
               <svg
                 xmlns="http://www.w3.org/2000/svg"
-                width="25"
-                height="25"
+                width="50"
+                height="50"
                 viewBox="0 0 64 64"
               >
                 <g transform="translate(5.796 8.927)">
@@ -145,16 +93,16 @@ const Footer = () => {
                   </g>
                 </g>
               </svg>
+              (510) 643-8393
             </a>
             <a
-              href="sms:+15106438393"
-              className="flex items-center gap-1 text-sm md:text-base justify-center md:justify-end hover:text-blue-800 transition-all duration-300 ease-in-out"
+              href="mailto:maliktints@gmail.com"
+              className="flex gap-2 items-center font-bold hover:text-blue-800 transition-all duration-300 ease-in-out"
             >
-              @MaliksTints
               <svg
-                height="25"
+                height="50"
                 viewBox="126.445 2.281 589 589"
-                width="25"
+                width="50"
                 xmlns="http://www.w3.org/2000/svg"
               >
                 <circle cx="420.945" cy="296.781" fill="#3c5a9a" r="294.5" />
@@ -163,12 +111,30 @@ const Footer = () => {
                   fill="#fff"
                 />
               </svg>
+              @MaliksTints
             </a>
           </div>
         </div>
+      </div>
+      <div className="flex flex-col items-center py-24 px-4">
+        <p className="text-blue-800 text-xs md:text-xl tracking-widest">
+          About
+        </p>
+        <h1 className="text-xl md:text-6xl font-bold mb-8">About Me</h1>
+        <p className="md:text-base text-sm max-w-lg">
+          Malik's Tints is a premier window tinting business founded and
+          operated by a passionate high school entrepreneur. With a keen eye for
+          detail and a commitment to excellence, Malik offers top-quality
+          tinting services to his valued clients. Backed by the latest
+          techniques and high-grade materials, Malik's Tints provides superior
+          window tinting solutions that enhance privacy, reduce heat, and
+          elevate the aesthetic appeal of any vehicle or property. Entrust your
+          tinting needs to Malik's Tints for professional results and
+          exceptional customer service.
+        </p>
       </div>
     </div>
   );
 };
 
-export default Footer;
+export default Contact;
