@@ -121,7 +121,7 @@ const Contact = () => {
           About
         </p>
         <h1 className="text-xl md:text-6xl font-bold mb-8">About Me</h1>
-        <p className="md:text-base text-sm max-w-lg">
+        <p className="md:text-base text-sm max-w-lg text-gray-600">
           Malik's Tints is a premier window tinting business founded and
           operated by a passionate high school entrepreneur. With a keen eye for
           detail and a commitment to excellence, Malik offers top-quality
