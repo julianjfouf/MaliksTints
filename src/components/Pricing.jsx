@@ -8,7 +8,7 @@ const Pricing = () => {
   return (
     <div
       id="pricing"
-      className="flex flex-col items-center container mx-auto p-24"
+      className="flex flex-col items-center container mx-auto p-24 mt-20"
     >
       <p className="text-blue-800 text-xs md:text-xl tracking-widest text-center">
         Pricing

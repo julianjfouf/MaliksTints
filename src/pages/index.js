@@ -10,6 +10,8 @@ import Footer from "@/components/Footer";
 import { useState } from "react";
 import Contact from "@/components/Contact";
 import Head from "next/head";
+import Navbar from "@/components/subcomponents/Navbar";
+import About from "@/components/About";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -21,11 +23,13 @@ function Home() {
         <title>Malik's Tints</title>
       </Head>
       <main className={`h-screen w-screen ${menu ? `overflow-hidden` : null}`}>
-        <Hero menu={menu} setMenu={setMenu} />
-        <Why />
-        <Experience />
+        <Navbar menu={menu} setMenu={setMenu} />
         <Pricing />
+        <Works />
+        <About />
+        <Why />
         <Contact />
+        <Experience />
         <Footer />
       </main>
     </>
