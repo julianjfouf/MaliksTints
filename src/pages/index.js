@@ -22,6 +22,10 @@ function Home() {
       <Head>
         <title>Malik's Tints</title>
         <link rel="icon" type="image/png" href="/maliklogo.png"></link>
+        <meta
+          name="description"
+          content="Malik's Tints Official Website for all information you need about services and packages offered."
+        ></meta>
       </Head>
       <main className={`h-screen w-screen ${menu ? `overflow-hidden` : null}`}>
         <Navbar menu={menu} setMenu={setMenu} />
