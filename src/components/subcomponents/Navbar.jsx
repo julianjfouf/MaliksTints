@@ -1,10 +1,18 @@
+import Image from "next/image";
 import React, { useState } from "react";
 
 const Navbar = ({ menu, setMenu }) => {
   return (
     <div className="fixed top-0 w-screen border-b z-[1000] bg-neutral-50/70 backdrop-blur-2xl">
       <div className="container mx-auto p-4 flex justify-between items-center">
-        <h1 className="text-lg md:text-4xl font-bold">Malik's Tints</h1>
+        <div>
+          <Image
+            src="/maliklogo.png"
+            height={1024}
+            width={1024}
+            className="object-contain aspect-auto flex w-full max-h-[80px]"
+          ></Image>
+        </div>
         <ul className="hidden md:flex gap-4">
           <li>
             <a

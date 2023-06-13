@@ -21,6 +21,7 @@ function Home() {
     <>
       <Head>
         <title>Malik's Tints</title>
+        <link rel="icon" type="image/png" href="/maliklogo.png"></link>
       </Head>
       <main className={`h-screen w-screen ${menu ? `overflow-hidden` : null}`}>
         <Navbar menu={menu} setMenu={setMenu} />
