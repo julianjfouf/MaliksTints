@@ -5,12 +5,12 @@ const Navbar = ({ menu, setMenu }) => {
   return (
     <div className="fixed top-0 w-screen border-b z-[1000] bg-neutral-50/70 backdrop-blur-2xl">
       <div className="container mx-auto p-4 flex justify-between items-center">
-        <div>
+        <div className="max-h-[80px] overflow-hidden flex items-center">
           <Image
-            src="/maliklogo.png"
+            src="/malikslogo.png"
             height={1024}
             width={1024}
-            className="object-contain aspect-auto flex w-full max-h-[80px]"
+            className="aspect-auto flex w-3/4 object-center"
           ></Image>
         </div>
         <ul className="hidden md:flex gap-4">
